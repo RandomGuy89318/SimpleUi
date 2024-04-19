@@ -25,13 +25,13 @@ public class Retrieve extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_update);
+        setContentView(R.layout.activity_retrieve);
 
         EditText txt_id= findViewById(R.id.ID);
         TextView txt_username= findViewById(R.id.username);
         TextView txt_password= findViewById(R.id.password);
         TextView txt_email= findViewById(R.id.email);
-        Button btn_update= findViewById(R.id.btn_update);
+        Button btn_update= findViewById(R.id.btn_retrieve);
         Button btn_back=findViewById(R.id.btn_back);
         TextView error= (TextView) findViewById(R.id.error);
 

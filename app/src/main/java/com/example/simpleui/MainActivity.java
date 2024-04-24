@@ -40,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
                 openCreate();
             }
         });
+        btn_delete.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                openDelete();
+            }
+        });
 
 
 
@@ -59,6 +65,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Create.class);
         startActivity(intent);
         }
+
+    public void openDelete(){
+        Intent intent = new Intent(this, Delete.class);
+        startActivity(intent);
+    }
 
 
 
